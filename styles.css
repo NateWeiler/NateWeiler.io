@@ -1,0 +1,224 @@
+/* Making page border box */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+/* Page height and text setting */
+html,
+body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Responsive images */
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Navbar sticky to be scrollable with page */
+nav {
+    width: auto;
+    position: fixed;
+    top: 0;
+    padding: 1.25rem 0;
+    background-color: rgb(25, 164, 211);
+    z-index: 1;
+}
+
+
+/* Navbar anchor styling */
+nav a {
+    font-size: 1.25rem;
+    color: rgb(0, 0, 0);
+    width: auto;
+    padding: 1.6rem 0.7rem;
+    text-decoration: none;
+}
+
+
+/* Navbar anchor hover color */
+nav a: hover {
+    background-color: rgb(222, 236, 17);
+}
+
+
+/* Same styling for home, about, contact */
+#home,
+#about,
+#contact {
+    margin: 0;
+    padding: 6.25rem 0 6.25rem 0;
+    width: 100%;
+}
+
+
+/* Home background image */
+#home {
+    background: url("Images/blue-matrix.gif");
+}
+
+
+/* Name at top of home styling */
+.name {
+    height: 6.25rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.5rem 0.7rem 0.65rem rgb(207, 18, 18);
+    font-size: 2.5rem;
+    font-family: 'Shrikhand', cursive;
+}
+
+
+/* My motto in home styling */
+.motto {
+    color: rgb(255, 255, 255);
+    text-shadow: 0.5rem 0.7rem 0.65rem rgb(207, 18, 18);
+    font-family: 'Notable', sans-serif;
+    font-size: 2.25rem;
+    padding: 6.25rem;
+}
+
+
+/* About styling */
+#about {
+    background: url("Images/number-code.gif");
+    color: #f8f402;
+    text-shadow: 0.5rem 0.7rem 0.65rem rgb(245, 5, 5);
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5rem;
+}
+
+#about a:hover {
+    color: rgb(45, 250, 4); 
+    background-color: transparent;
+}
+
+/* Games styling */
+#games {
+    background-color: rgb(43, 236, 17);
+    color: rgb(7, 245, 27);
+    text-shadow: 0.5rem 0.7rem 0.65rem rgb(251, 255, 2);
+    font-family: 'Notable', sans-serif;
+    font-size: 2.5rem;
+}
+
+#games a:hover {
+    color: rgb(225, 240, 9); 
+    background-color: transparent;
+}
+
+/* Contact styling */
+#contact {
+    background-color: rgb(20, 233, 233);
+    color: rgb(245, 7, 106);
+    text-shadow: 0.5rem 0.7rem 0.65rem rgb(15, 156, 199);
+    font-family: 'Notable', sans-serif;
+    font-size: 2.5rem;
+}
+
+#contact p {
+    font-size: 1rem;
+}
+
+#contact a:hover {
+    color: rgb(240, 9, 9); 
+    background-color: transparent;
+}
+
+/* Businesses styling */
+#businesses {
+    font-family: 'Times New Roman', Times, serif;
+    background: #333;
+    font-size: 2.25rem;
+    color: rgb(255, 255, 255);
+}
+
+#businesses a:hover {
+    color: rgb(45, 250, 4); 
+    background-color: transparent;
+}
+
+#donate {
+    background-color: rgb(255, 255, 255);
+    color: rgb(245, 162, 7);
+    text-shadow: 0.5rem 0.7rem 0.65rem rgb(15, 156, 199);
+    font-family: 'Notable', sans-serif;
+    font-size: 2.5rem;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    position: sticky;
+    margin: 0;
+    bottom: 0;
+    color: rgb(17, 22, 41);
+    background-color: rgb(25, 164, 211);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.6rem;
+    height: auto;
+}
+
+/* All h1 Animations */
+.name,
+.contact {
+    animation: in 8s ease-out forwards infinite;
+    animation-delay: 16s;
+    -webkit-animation: in 8s ease-out forwards infinite;
+}
+
+
+/* Animation keyframes for all h1 */
+@keyframes in {
+    0% {
+        letter-spacing: -1.125rem;
+        opacity: 1;
+    }
+    30% {
+        letter-spacing: 0.25rem;
+        opacity: 1;
+    }
+    100% {
+        letter-spacing: 0.25rem;
+        opacity: 1;
+    }
+}
+
+@keyframes in {
+    0% {
+        letter-spacing: -1.125rem;
+        opacity: 1;
+    }
+    30% {
+        letter-spacing: 0.25rem;
+        opacity: 1;
+    }
+    100% {
+        letter-spacing: 0.25rem;
+        opacity: 1;
+    }
+}
+
+@keyframes in {
+    0% {
+        letter-spacing: -1.125rem;
+        opacity: 1;
+    }
+    30% {
+        letter-spacing: 0.25rem;
+        opacity: 1;
+    }
+    100% {
+        letter-spacing: 0.25rem;
+        opacity: 1;
+    }
+}
+
+/* Cursor styling for Website */
+HTML,BODY {cursor: url("https://downloads.totallyfreecursors.com/cursor_files/rainbow-ani.ani"), url("https://downloads.totallyfreecursors.com/thumbnails/rainbow-ani3.gif"), auto;
+}
