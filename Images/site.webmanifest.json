@@ -1,0 +1,29 @@
+{
+  "name": "NateWeiler.io",
+  "short_name": "NateWeiler.io",
+  "start_url": "https://nateweiler.github.io/NateWeiler.io/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "NateWeiler.io",
+  "icons": [{
+    "src": "Images/favicon-16x16.png",
+    "sizes": "16x16",
+    "type": "image/png"
+  }{
+    "src": "Images/favicon-32x32.png",
+    "sizes": "32x32",
+    "type": "image/png"
+  }{
+    "src": "Images/favicon-48x48.ico",
+    "sizes": "48x48",
+    "type": "favicon.ico"
+  }, {
+    "src": "Images/apple-touch-icon.png",
+    "sizes": "180x180",
+    "type": "image/png"
+  }, {
+    "src": "Images/android-chrome-192x192.ico",
+    "sizes": "192x192",
+    "type": "favicon.ico"
+  }]
+}
